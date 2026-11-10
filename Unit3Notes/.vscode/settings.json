@@ -1,7 +1,19 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+
+"java.project.sourcePaths": ["src"],
+"java.project.outputPath": "bin",
+"editor.inlayHints.enabled": "off",
+"editor.acceptSuggestionOnEnter": "off",
+"editor.parameterHints.enabled": false,
+"editor.snippetSuggestions": "none",
+"editor.tabCompletion": "off",
+"editor.autoIndent": "none",
+"editor.quickSuggestions": {
+"other": "off",
+"comments": "off",
+"strings": "off"
+},
+"java.project.referencedLibraries": [
+"lib/**/*.jar"
+]
 }

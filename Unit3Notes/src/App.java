@@ -9,7 +9,9 @@ public class App {
         Superhero s2 = new Superhero("Kamran", p2); 
         Superhero s3 = new Superhero("Ryan",p3);  
 
-        s1.damageTaken(10); 
+        s1.damageTaken(10);  
+
+        s1.getPower().setStrength(s1.getPower().getStrength()-1);
     }
 }
 

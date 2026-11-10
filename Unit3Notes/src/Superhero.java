@@ -15,5 +15,25 @@ public class Superhero {
 
     public void damageTaken () { 
 
-    }
+    } 
+
+    public void setName(String name){ 
+        this.name = name;
+    }  
+
+    public void setPower(Power power) {
+        this.power = new Power(power.getName(), power.getStrength());
+    } 
+
+    public void setPower(String n, int s) { 
+        this.power = new Power(n, s);
+    } 
+
+    public String getName() { 
+        return name;
+    } 
+
+    public Power getPower() { 
+return power}
+
 }
